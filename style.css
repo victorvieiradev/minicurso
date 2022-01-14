@@ -36,3 +36,11 @@ main > section button{
     width: 90%;
 
 }
+#detalhes-container > li{
+    align-items: baseline;
+    display: inline;
+    display: flex;
+}
+#detalhes-container > li p {
+    color: white;
+}
