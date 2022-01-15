@@ -84,6 +84,15 @@ pegarPersonagem3 = () => {
     });
 }
 
-botao.onclick = pegarPersonagem;
+
+//Chamando as funções.
+function carregar(){
+    pegarPersonagem();
+    pegarPersonagem2();
+    pegarPersonagem3();
+
+}
+
+botao.addEventListener('click', pegarPersonagem);
 botao.addEventListener('click', pegarPersonagem2);
 botao.addEventListener('click', pegarPersonagem3);
