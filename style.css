@@ -10,13 +10,14 @@ main{
     height: 100vh;
     justify-content: center;
     position: relative;
+    
 }
 main > section img{
     height: 300px;
     margin: 15px 0;
     width: 300px;
 }
-main > section button{
+button{
     background-color: #00bfff;
     border: none;
     border-radius: 4px;
@@ -28,6 +29,9 @@ main > section button{
     line-height: 20px;
     text-transform: uppercase;
     padding: 9px 23px;
+    display: block;
+    margin: auto;
+
 }
 #detalhes-container{
     font-weight: bold;
